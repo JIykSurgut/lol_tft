@@ -477,7 +477,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.2.0": {
-      "sha512": "qIrVLupwT2NYTrf7KM7Nh+mJr36V5MITVRjyGOByVVCwGmQgQmI/6bjZYQv+QdExi4Cm87eCKJX9FdT6nc00Xg==",
+      "sha512": "OK/H8p9Ig6mLMITjXJ4VOewrJg/TU+dAPHE4BdMWMv+8COzBehf7XF1+DofKkmqdHpO2cJoS5Sc9PEZ6PKCbsg==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.2.0",
       "files": [
@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\kondyuba_ba\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Проект Шахматы\\ConsoleShess\\ConsoleShess.csproj",
+      "projectUniqueName": "D:\\GitHub\\lol_tft\\ConsoleShess\\ConsoleShess.csproj",
       "projectName": "ConsoleShess",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Проект Шахматы\\ConsoleShess\\ConsoleShess.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Проект Шахматы\\ConsoleShess\\obj\\",
+      "projectPath": "D:\\GitHub\\lol_tft\\ConsoleShess\\ConsoleShess.csproj",
+      "packagesPath": "C:\\Users\\kondyuba_ba\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\lol_tft\\ConsoleShess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kondyuba_ba\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -734,10 +734,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

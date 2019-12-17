@@ -22,7 +22,7 @@ namespace ConsoleShess
         Satir,
         none
     };
-    enum Class {
+    enum _Class {
         Assassin = 0,
         Demon_Hunter,
         Druid,
@@ -113,7 +113,7 @@ namespace ConsoleShess
         public uint CountLevel { get; set; }
     }
     
-    class Program
+    partial class Program
     {
         static public Hero[] listHero =
         {
