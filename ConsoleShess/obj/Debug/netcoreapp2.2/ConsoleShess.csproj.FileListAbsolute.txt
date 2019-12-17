@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.deps.json
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.runtimeconfig.json
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.dll
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.pdb
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.dll
+C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.pdb
