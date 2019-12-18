@@ -9,3 +9,13 @@ C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcor
 C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.AssemblyInfo.cs
 C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.dll
 C:\Users\Admin\Desktop\Проект Шахматы\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.pdb
+D:\GitHub\lol_tft\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.deps.json
+D:\GitHub\lol_tft\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.runtimeconfig.json
+D:\GitHub\lol_tft\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.runtimeconfig.dev.json
+D:\GitHub\lol_tft\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.dll
+D:\GitHub\lol_tft\ConsoleShess\bin\Debug\netcoreapp2.2\ConsoleShess.pdb
+D:\GitHub\lol_tft\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.csprojAssemblyReference.cache
+D:\GitHub\lol_tft\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.AssemblyInfoInputs.cache
+D:\GitHub\lol_tft\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.AssemblyInfo.cs
+D:\GitHub\lol_tft\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.dll
+D:\GitHub\lol_tft\ConsoleShess\obj\Debug\netcoreapp2.2\ConsoleShess.pdb
