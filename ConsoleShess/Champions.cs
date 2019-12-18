@@ -54,33 +54,35 @@
             new Champion { Id = 29, Name="Kindred",   Origin = Origin.Shadow,  Origin2 = Origin.Inferno,  Class = Class.Ranger,   Class2 = Class.none,  Cost = 3 },
             new Champion { Id = 30, Name="Nautilus",   Origin = Origin.Ocean,  Origin2 = Origin.none,  Class = Class.Warden,   Class2 = Class.none,  Cost = 3 },
             new Champion { Id = 31, Name="Nocturne",   Origin = Origin.Steel,  Origin2 = Origin.none,  Class = Class.Assassin,   Class2 = Class.none,  Cost = 3 },
-            //!!!!!!!
-            new Champion { Id = 32, Name="Qiyana",   Origin = Origin.none,  Origin2 = Origin.none,  Class = Class.none,   Class2 = Class.none,  Cost = 3 },
-            new Champion { Id = 33, Name="Sion",   Origin = Origin.Shadow,  Origin2 = Origin.none,  Class = Class.Berserker,   Class2 = Class.none,  Cost = 3 },
-            new Champion { Id = 34, Name="Sivir",   Origin = Origin.Desert,  Origin2 = Origin.none,  Class = Class.Blademaster,   Class2 = Class.none,  Cost = 3 },
-            new Champion { Id = 35, Name="Soraka",   Origin = Origin.Light,  Origin2 = Origin.none,  Class = Class.Mystic,   Class2 = Class.none,  Cost = 3 },
-            new Champion { Id = 36, Name="Veigar",   Origin = Origin.Shadow,  Origin2 = Origin.none,  Class = Class.Mage,   Class2 = Class.none,  Cost = 3 },
-            
+            new Champion { Id = 32, Name="Qiyana Cloud",   Origin = Origin.Cloud,  Origin2 = Origin.Qiyana,  Class = Class.Assassin,   Class2 = Class.none,  Cost = 3 },
+            new Champion { Id = 33, Name="Qiyana Inferno",   Origin = Origin.Inferno,  Origin2 = Origin.Qiyana,  Class = Class.Assassin,   Class2 = Class.none,  Cost = 3 },
+            new Champion { Id = 34, Name="Qiyana Mountain",   Origin = Origin.Mountain,  Origin2 = Origin.Qiyana,  Class = Class.Assassin,   Class2 = Class.none,  Cost = 3 },
+            new Champion { Id = 35, Name="Qiyana Ocean",   Origin = Origin.Ocean,  Origin2 = Origin.Qiyana,  Class = Class.Assassin,   Class2 = Class.none,  Cost = 3 },
+            new Champion { Id = 36, Name="Sion",   Origin = Origin.Shadow,  Origin2 = Origin.none,  Class = Class.Berserker,   Class2 = Class.none,  Cost = 3 },
+            new Champion { Id = 37, Name="Sivir",   Origin = Origin.Desert,  Origin2 = Origin.none,  Class = Class.Blademaster,   Class2 = Class.none,  Cost = 3 },
+            new Champion { Id = 38, Name="Soraka",   Origin = Origin.Light,  Origin2 = Origin.none,  Class = Class.Mystic,   Class2 = Class.none,  Cost = 3 },
+            new Champion { Id = 39, Name="Veigar",   Origin = Origin.Shadow,  Origin2 = Origin.none,  Class = Class.Mage,   Class2 = Class.none,  Cost = 3 },
+            /*
             //Cost 4
-            new Champion { Id = 37, Name="Annie",   Origin = Origin.Inferno,  Origin2 = Origin.none,  Class = Class.Summoner,   Class2 = Class.none,  Cost = 4 },
-            new Champion { Id = 38, Name="Ashe",   Origin = Origin.Crystal,  Origin2 = Origin.none,  Class = Class.Ranger,   Class2 = Class.none,  Cost = 4 },
-            new Champion { Id = 39, Name="Brand",   Origin = Origin.Inferno,  Origin2 = Origin.none,  Class = Class.Mage,   Class2 = Class.none,  Cost = 4 },
-            new Champion { Id = 40, Name="Janna",   Origin = Origin.Cloud,  Origin2 = Origin.none,  Class = Class.Mystic,   Class2 = Class.none,  Cost = 4 },
-            new Champion { Id = 41, Name="Kha'Zix",   Origin = Origin.Desert,  Origin2 = Origin.none,  Class = Class.Assassin,   Class2 = Class.none,  Cost = 4 },
-            new Champion { Id = 42, Name="Lucian",   Origin = Origin.Light,  Origin2 = Origin.none,  Class = Class.Soulbound,   Class2 = Class.none,  Cost = 4 },
-            new Champion { Id = 43, Name="Malphite",   Origin = Origin.Mountain,  Origin2 = Origin.none,  Class = Class.Warden,   Class2 = Class.none,  Cost = 4 },
-            new Champion { Id = 44, Name="Olaf",   Origin = Origin.Glacial,  Origin2 = Origin.none,  Class = Class.Berserker,   Class2 = Class.none,  Cost = 4 },
-            new Champion { Id = 45, Name="Twitch",   Origin = Origin.Poison,  Origin2 = Origin.none,  Class = Class.Ranger,   Class2 = Class.none,  Cost = 4 },
-            new Champion { Id = 46, Name="Yorick",   Origin = Origin.Light,  Origin2 = Origin.none,  Class = Class.Summoner,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 40, Name="Annie",   Origin = Origin.Inferno,  Origin2 = Origin.none,  Class = Class.Summoner,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 41, Name="Ashe",   Origin = Origin.Crystal,  Origin2 = Origin.none,  Class = Class.Ranger,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 42, Name="Brand",   Origin = Origin.Inferno,  Origin2 = Origin.none,  Class = Class.Mage,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 43, Name="Janna",   Origin = Origin.Cloud,  Origin2 = Origin.none,  Class = Class.Mystic,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 44, Name="Kha'Zix",   Origin = Origin.Desert,  Origin2 = Origin.none,  Class = Class.Assassin,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 45, Name="Lucian",   Origin = Origin.Light,  Origin2 = Origin.none,  Class = Class.Soulbound,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 46, Name="Malphite",   Origin = Origin.Mountain,  Origin2 = Origin.none,  Class = Class.Warden,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 47, Name="Olaf",   Origin = Origin.Glacial,  Origin2 = Origin.none,  Class = Class.Berserker,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 48, Name="Twitch",   Origin = Origin.Poison,  Origin2 = Origin.none,  Class = Class.Ranger,   Class2 = Class.none,  Cost = 4 },
+            new Champion { Id = 49, Name="Yorick",   Origin = Origin.Light,  Origin2 = Origin.none,  Class = Class.Summoner,   Class2 = Class.none,  Cost = 4 },
             
             //Cost 5
-            new Champion { Id = 47, Name="Amumu",   Origin = Origin.Inferno,  Origin2 = Origin.none,  Class = Class.Warden,   Class2 = Class.none,  Cost = 5 },
-            new Champion { Id = 48, Name="Master Yi",   Origin = Origin.Shadow,  Origin2 = Origin.none,  Class = Class.Mystic,   Class2 = Class.Blademaster,  Cost = 5 },
-            new Champion { Id = 49, Name="Nami",   Origin = Origin.Ocean,  Origin2 = Origin.none,  Class = Class.Mystic,   Class2 = Class.none,  Cost = 5 },
-            new Champion { Id = 50, Name="Singed",   Origin = Origin.Poison,  Origin2 = Origin.none,  Class = Class.Alchemist,   Class2 = Class.none,  Cost = 5 },
-            new Champion { Id = 51, Name="Taric",   Origin = Origin.Crystal,  Origin2 = Origin.none,  Class = Class.Warden,   Class2 = Class.none,  Cost = 5 },
-            new Champion { Id = 52, Name="Zed",   Origin = Origin.Electric,  Origin2 = Origin.none,  Class = Class.Summoner,   Class2 = Class.Assassin,  Cost = 5 },
-            
+            new Champion { Id = 50, Name="Amumu",   Origin = Origin.Inferno,  Origin2 = Origin.none,  Class = Class.Warden,   Class2 = Class.none,  Cost = 5 },
+            new Champion { Id = 51, Name="Master Yi",   Origin = Origin.Shadow,  Origin2 = Origin.none,  Class = Class.Mystic,   Class2 = Class.Blademaster,  Cost = 5 },
+            new Champion { Id = 52, Name="Nami",   Origin = Origin.Ocean,  Origin2 = Origin.none,  Class = Class.Mystic,   Class2 = Class.none,  Cost = 5 },
+            new Champion { Id = 53, Name="Singed",   Origin = Origin.Poison,  Origin2 = Origin.none,  Class = Class.Alchemist,   Class2 = Class.none,  Cost = 5 },
+            new Champion { Id = 54, Name="Taric",   Origin = Origin.Crystal,  Origin2 = Origin.none,  Class = Class.Warden,   Class2 = Class.none,  Cost = 5 },
+            new Champion { Id = 55, Name="Zed",   Origin = Origin.Electric,  Origin2 = Origin.none,  Class = Class.Summoner,   Class2 = Class.Assassin,  Cost = 5 },
+            */
         };
 
     }

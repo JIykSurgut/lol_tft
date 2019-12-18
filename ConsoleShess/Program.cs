@@ -43,6 +43,7 @@ namespace ConsoleShess
         public Block Soulbound = new Block();
         public Block Summoner = new Block();
         public Block Warden = new Block();
+        public Block Qiyana = new Block();
 
         public string[] team = new string[10];      
         public uint CountLevel { get; set; }
@@ -80,6 +81,7 @@ namespace ConsoleShess
                         case Origin.Steel: spec.Steel.count += 1; break;
                         case Origin.Variable: spec.Variable.count += 1; break;
                         case Origin.Woodland: spec.Woodland.count += 1; break;
+                        case Origin.Qiyana: spec.Qiyana.count += 1; break;
                     }
                     switch (_class)
                     {
@@ -99,10 +101,10 @@ namespace ConsoleShess
                     }
                     origin = champion.Origin2;
                     _class = champion.Class2;
-                }
-
-                 
+                }             
             }
+            if (spec.Qiyana.count > 1) return;
+
             //Подсчет бафов
             spec.Cloud.lvl = spec.Cloud.count >= 4 ? 3u : spec.Cloud.count == 3 ? 2u : spec.Cloud.count == 2 ? 1u : 0;
             spec.Crystal.lvl = spec.Crystal.count >= 4 ? 2u : spec.Crystal.count >= 2 ? 1u : 0;
@@ -116,7 +118,7 @@ namespace ConsoleShess
             spec.Poison.lvl = spec.Poison.count >= 3 ? 1u : 0;
             spec.Shadow.lvl = spec.Shadow.count >= 6 ? 2u : spec.Shadow.count >= 3 ? 1u : 0;
             spec.Steel.lvl = spec.Steel.count >= 4 ? 3u : spec.Steel.count == 3 ? 2u : spec.Steel.count == 2 ? 1u : 0;
-            spec.Woodland.lvl = spec.Woodland.count >= 3 ? 1u : 0;
+            spec.Woodland.lvl = spec.Woodland.count >= 3 ? 1u : 0;          
 
             spec.Alchemist.lvl = spec.Alchemist.count >= 1 ? 1u : 0;
             spec.Assassin.lvl = spec.Assassin.count >= 6 ? 2u : spec.Assassin.count >= 3 ? 1u : 0;
@@ -151,7 +153,7 @@ namespace ConsoleShess
                 spec.Shadow.lvl +
                 spec.Steel.lvl +
                 spec.Woodland.lvl +
-                spec.Alchemist.lvl +
+                //spec.Alchemist.lvl +
                 spec.Assassin.lvl +
                 spec.Avatar.lvl +
                 spec.Berserker.lvl +
@@ -166,9 +168,10 @@ namespace ConsoleShess
 
             
             //if(spec.CountLevel >=8)
-            if(spec.Druid.lvl >=1)
-            listBuf.Add(spec);
-            //if(spec.CountLevel >= 6)listBuf.Add(spec);
+           
+            //listBuf.Add(spec);
+            //if(spec.CountLevel >= 5 && spec.Electric.lvl >=1 && spec.Warden.lvl >= 1 && spec.Glacial.lvl >= 1) listBuf.Add(spec);
+            if (spec.CountLevel >= 6) listBuf.Add(spec);
             //int flag = 1;
             //for (int i = 0; i < spec.team.Length; i++)
             //{
@@ -198,11 +201,12 @@ namespace ConsoleShess
             {
                 Console.WriteLine(string.Join(",", Total[i].team) + Total[i].CountLevel);
             }
+            Console.WriteLine("----------");
             Console.ReadKey();
         }
 
-        static int k = 4, //позиций
-            n = 53; //кол-во элементов
+        static int k = 7, //позиций
+            n = 40; //кол-во элементов
         static int[] buf = new int[k];
         static void rec(int ind, int begin, IList<Spec> listBuf)
         {

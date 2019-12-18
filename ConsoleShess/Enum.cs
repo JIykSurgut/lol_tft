@@ -34,6 +34,7 @@
         Desert,
         Cloud,
         Crystal,
+        Qiyana,
         none
     }
 
