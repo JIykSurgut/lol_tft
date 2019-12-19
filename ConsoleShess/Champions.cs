@@ -62,7 +62,7 @@
             new Champion { Id = 37, Name="Sivir",   Origin = Origin.Desert,  Origin2 = Origin.none,  Class = Class.Blademaster,   Class2 = Class.none,  Cost = 3 },
             new Champion { Id = 38, Name="Soraka",   Origin = Origin.Light,  Origin2 = Origin.none,  Class = Class.Mystic,   Class2 = Class.none,  Cost = 3 },
             new Champion { Id = 39, Name="Veigar",   Origin = Origin.Shadow,  Origin2 = Origin.none,  Class = Class.Mage,   Class2 = Class.none,  Cost = 3 },
-            /*
+            
             //Cost 4
             new Champion { Id = 40, Name="Annie",   Origin = Origin.Inferno,  Origin2 = Origin.none,  Class = Class.Summoner,   Class2 = Class.none,  Cost = 4 },
             new Champion { Id = 41, Name="Ashe",   Origin = Origin.Crystal,  Origin2 = Origin.none,  Class = Class.Ranger,   Class2 = Class.none,  Cost = 4 },
@@ -82,7 +82,7 @@
             new Champion { Id = 53, Name="Singed",   Origin = Origin.Poison,  Origin2 = Origin.none,  Class = Class.Alchemist,   Class2 = Class.none,  Cost = 5 },
             new Champion { Id = 54, Name="Taric",   Origin = Origin.Crystal,  Origin2 = Origin.none,  Class = Class.Warden,   Class2 = Class.none,  Cost = 5 },
             new Champion { Id = 55, Name="Zed",   Origin = Origin.Electric,  Origin2 = Origin.none,  Class = Class.Summoner,   Class2 = Class.Assassin,  Cost = 5 },
-            */
+            
         };
 
     }

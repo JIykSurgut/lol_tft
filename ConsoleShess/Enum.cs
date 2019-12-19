@@ -1,6 +1,6 @@
 ﻿namespace ConsoleShess
 {
-    enum Class
+    enum Class : byte
     {
         Ranger = 0,   
         Summoner,
@@ -18,7 +18,7 @@
         none
     };
 
-    enum Origin
+    enum Origin : byte
     { 
         Woodland,
         Steel,
